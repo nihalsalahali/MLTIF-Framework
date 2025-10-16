@@ -1,6 +1,5 @@
 """
 Runtime Metrics Logger for MLTIF
-Author: 
 Logs detection and mitigation events for audit and analysis.
 """
 
