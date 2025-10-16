@@ -1,6 +1,6 @@
 """
 AMCM - Controller Synchronization Module
-Author: 
+
 Description:
     - Simulates sync between SDN controllers in a distributed environment.
     - Ensures policy and flow rule consistency across controllers.
@@ -8,7 +8,7 @@ Description:
 
 import json
 
-# Placeholder list of other controller IPs (for demonstration)
+# list of other controller IPs 
 peer_controllers = [
     "10.0.0.2",
     "10.0.0.3"
