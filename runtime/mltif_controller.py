@@ -1,6 +1,5 @@
 """
 MLTIF Runtime Controller
-Author: 
 Description:
     - Orchestrates detection and mitigation pipeline in MLTIF.
     - Interfaces with ATDM detector and AMCM mitigation engine.
