@@ -1,0 +1,4 @@
+# AMCM Policy Rules
+quarantine_threshold: 0.75
+rate_limit_threshold: 0.70
+update_flows: true

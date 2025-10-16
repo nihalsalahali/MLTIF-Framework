@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "src_ip": "10.0.0.1",
+      "dst_ip": "10.0.0.2",
+      "action": "rate-limit",
+      "priority": 100
+    },
+    {
+      "src_ip": "10.0.0.3",
+      "dst_ip": "10.0.0.4",
+      "action": "quarantine",
+      "priority": 1000
+    }
+  ]
+}
