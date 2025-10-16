@@ -12,7 +12,7 @@
 - Exports extracted metadata to the controller for higher-layer inspection.
 
 ### 2️⃣ ATDM (Advanced Threat Detection Module)
-- Ensemble ML classifier combining Decision Tree, Q-CNN, SNN (placeholder), and Logistic Regression meta-learner.
+- Ensemble ML classifier combining Decision Tree, Q-CNN, SNN , and Logistic Regression meta-learner.
 - Performs phase-aware multi-stage threat classification using temporal correlation.
 - Outputs structured alerts with confidence scores and phase classification.
 
