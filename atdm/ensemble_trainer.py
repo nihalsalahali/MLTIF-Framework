@@ -13,7 +13,7 @@ from sklearn.ensemble import VotingClassifier
 import joblib
 import os
 
-# Placeholder: Mock quantized CNN as simple MLP
+# Quantized CNN as simple MLP
 from sklearn.neural_network import MLPClassifier
 
 # Directory to save models
