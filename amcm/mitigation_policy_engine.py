@@ -1,6 +1,5 @@
 """
 AMCM - Mitigation Policy Engine
-Author: 
 Description:
     - Accepts alert messages (JSON).
     - Matches against policies.
