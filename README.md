@@ -1,4 +1,4 @@
-# MLTIF: Multi-Layer Traffic Inspection Framework for Multi-Phase Attack Defense in SD-IoT
+# MLTIF: A Multi-Layer Traffic Inspection Framework for Real-Time Detection and Adaptive Mitigation of Multi-Phase Cyberattacks in Distributed SD-IoT Networks
 
 **MLTIF** is a modular, intelligent, and distributed framework for detecting, classifying, and mitigating multi-phase attacks (reconnaissance, exploitation, disruption) in Software-Defined IoT networks. It integrates programmable data planes (P4) with distributed SDN controllers and an ensemble ML-based threat classifier for real-time response and mitigation.
 
