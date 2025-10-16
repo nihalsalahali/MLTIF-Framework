@@ -37,8 +37,8 @@ def train_qcnn(X_train, y_train):
     joblib.dump(clf, os.path.join(MODEL_DIR, "qcnn_mock.pkl"))
     return clf
 
-def train_snn_placeholder(X_train, y_train):
-    # Placeholder for SNN — using shallow neural net for now
+def train_snn(X_train, y_train):
+    # SNN — using shallow neural net for now
     clf = MLPClassifier(hidden_layer_sizes=(32,), max_iter=300)
     clf.fit(X_train, y_train)
     joblib.dump(clf, os.path.join(MODEL_DIR, "snn_mock.pkl"))
@@ -59,7 +59,7 @@ def main():
     print("[INFO] Training base models...")
     dt = train_decision_tree(X_train, y_train)
     qcnn = train_qcnn(X_train, y_train)
-    snn = train_snn_placeholder(X_train, y_train)
+    snn = train_snn(X_train, y_train)
 
     print("[INFO] Training meta-learner...")
     meta = train_meta_learner([dt, qcnn, snn], X_val, y_val)
