@@ -1,6 +1,5 @@
 """
 ATDM Online Detector - MLTIF Framework
-Author: 
 Description:
     - Loads pre-trained models (Decision Tree, Q-CNN, SNN, Meta).
     - Predicts threat labels from input feature vectors.
