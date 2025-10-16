@@ -1,9 +1,7 @@
 """
 ATDM Ensemble Trainer - MLTIF Framework
-Author: 
 Description:
     - Trains an ensemble of classifiers: Decision Tree, Q-CNN, SNN (mocked), and meta-learner.
-    - Placeholder code using synthetic data for now.
 """
 
 import numpy as np
