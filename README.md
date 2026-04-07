@@ -135,7 +135,7 @@ MLTIF empowers your SDN-based IoT infrastructure to:
 - React with real-time, distributed mitigation
 - Scale with controller clusters and programmable data planes
 
-🚀 Run MLTIF in Mininet or on real P4 hardware today!
+ Run MLTIF in Mininet or on real P4 hardware today!
 
 ---
 
