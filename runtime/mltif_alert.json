@@ -1,0 +1,9 @@
+{
+  "src_ip": "10.0.0.1",
+  "dst_ip": "10.0.0.2",
+  "detection": {
+    "threat_label": 1,
+    "confidence": 0.91
+  },
+  "timestamp": "2025-08-06T12:00:00Z"
+}

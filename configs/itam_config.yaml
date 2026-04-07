@@ -1,0 +1,3 @@
+# ITAM Module Configuration
+window_size: 2.0
+threshold_entropy: 0.73
