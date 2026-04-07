@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Core Modules
+##  Core Modules
 
 ### 1️⃣ ITAM (Intelligent Traffic Analysis Module)
 - Written in P4_16 for BMv2 and P4 hardware targets.
